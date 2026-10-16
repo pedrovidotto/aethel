@@ -1,0 +1,39 @@
+aethel-personal/
+├── package.json
+├── tsconfig.json
+├── next.config.mjs
+├── tailwind.config.ts
+├── postcss.config.mjs
+├── vitest.config.ts
+├── vercel.json
+├── .env.example
+├── scripts/
+│   └── fetch-mediapipe-assets.mjs
+├── lib/
+│   ├── reference-ranges.ts
+│   ├── metrics.ts
+│   ├── quality.ts
+│   ├── landmarker.ts
+│   ├── exif.ts
+│   ├── db.ts
+│   ├── interpret-schema.ts
+│   ├── lint-output.ts
+│   └── __tests__/
+│       ├── metrics.test.ts
+│       └── lint-output.test.ts
+├── components/
+│   ├── CaptureView.tsx
+│   ├── Overlay.tsx
+│   ├── MetricCard.tsx
+│   └── PlanView.tsx
+└── app/
+    ├── globals.css
+    ├── layout.tsx
+    ├── page.tsx
+    ├── scan/
+    │   └── page.tsx
+    ├── history/
+    │   └── page.tsx
+    └── api/
+        └── interpret/
+            └── route.ts
